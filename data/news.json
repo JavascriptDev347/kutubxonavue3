@@ -1,0 +1,172 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "url": "1.jpg",
+      "name": "“Central Asia – 2022”: “Fan, ta’lim, madaniyat va biznesda internet va axborot-kutubxona resurslari” XV Xalqaro konferensiyasi",
+      "title": "“Central Asia – 2022”: “Fan, ta’lim, madaniyat va biznesda internet va axborot-kutubxona resurslari” XV Xalqaro konferensi"
+    },
+    {
+      "id": 2,
+      "url": "2.png",
+      "name": "Xorijiy adabiyotlar kutubxonasi",
+      "title": "Loyiha haqida"
+    },
+    {
+      "id": 3,
+      "url": "3.jpg",
+      "name": "O‘zbekiston Milliy kutubxonasida 2022-yil aprel oyida foydalanuvchilar tomonidan eng ko‘p buyurtma qilingan adabiyotlar",
+      "title": ""
+    },
+    {
+      "id": 4,
+      "url": "4.jpg",
+      "name": "#Oltin_sandiq_javohirlari",
+      "title": "  Aziz kitobxonlar, biz sizlarni kanalimizda #Oltin_sandiq_javohirlari xeshtegi ostida kutubxona kitob javonlaridan o'rin olgan O‘zbek tilining izohli lug‘atidan ona tilimizda uchraydigan jozibador   so‘zlarning sharhi bilan tanishtirib borishda davom etamiz."
+    },
+    {
+      "id": 5,
+      "url": "5.jpg",
+      "name": "Akademik Vohid Abdullayev tavalludining 110 yilligiga bag'ishlangan ko‘rgazma",
+      "title": "  Aziz kitobxonlar, biz sizlarni kanalimizda #Oltin_sandiq_javohirlari xeshtegi ostida kutubxona kitob javonlaridan o'rin olgan O‘zbek tilining izohli lug‘atdan ona tilimizda uchraydigan jozibador   so‘zlarning sharhi bilan tanishtirib borishda davom etamiz."
+    },
+    {
+      "id": 6,
+      "url": "6.jpg",
+      "name": "Akademik Vohid Abdullayev tavalludining 110 yilligiga bag'ishlangan ko‘rgazma",
+      "title": "   O‘zbekiston Milliy kutubxonasi “Ilm” o‘quv zalida O‘zbekistonda xizmat ko‘rsatgan fan arbobi, O‘zbekiston FA akademigi, adabiyotshunos olim, filologiya fanlari doktori, professor Vohid Abdullayev tavalludining 110 yilligi munosabati bilan kitoblar ko‘rgazmasi ochildi"
+    },
+    {
+      "id": 7,
+      "url": "7.jpg",
+      "name": "Hurmatli kitobxonlar!",
+      "title": "Sizlarni haftaning har juma kuni #kun_hikmati xeshtegi ostida taniqli va ulug olim-u shoirlarning hikmatli iboralari bilan tanishtirib boramiz"
+    },
+    {
+      "id": 8,
+      "url": "8.jpg",
+      "name": "“O‘chmas u kunlar shuhrati” nomli fotolavhalar ko‘rgazmasi",
+      "title": "  O‘zbekiston Respublikasi Prezidentining 2022-yil 29-apreldagi “9-may — Xotira va qadrlash kuniga tayyorgarlik ko‘rish va uni o‘tkazish chora-tadbirlari to‘g‘risida”gi qaroriga asosan “G‘alaba bog‘i” yodgorlik majmuasi tarkibidagi “Shon-sharaf” davlat muzeyida O‘zbeki"
+    },
+    {
+      "id": 9,
+      "url": "9.jpg",
+      "name": "Rossiya Federatsiyasida Hamdo‘stlik kutubxonalarining ta'lim sohasidagi hamkorligi loyihasi amalga oshirilmoqda",
+      "title": "   Rossiya Davlat kutubxonasi (RGB) Mustaqil davlatlar hamdo‘stligining xorijda yashovchi vatandoshlar ishlari bo‘yicha federal agentligi va Xalqaro gumanitar hamkorlik (Rossotrudnichesvo) bilan birgalikda siyosiy, ijtimoiy, ilmiy va ishbilarmon doiralari yosh vakillarining “Yangi avlod” das"
+    }
+  ],
+  "news_ru": [
+    {
+      "id": 1,
+      "url": "1.jpg",
+      "name": "“Центральная Азия - 2022»: XV Международная конференция «Интернет и информационно-библиотечные ресурсы в науке, образовании, культуре и бизнесе»",
+
+      "title": "“Центральная Азия - 2022»: XV Международная конференция «Интернет и информационно-библиотечные ресурсы в науке, образовании, культуре и бизнесе»"
+    },
+    {
+      "id": 2,
+      "url": "2.png",
+      "name": "Библиотека иностранной литературы",
+      "title": "О проекте"
+    },
+    {
+      "id": 3,
+      "url": "3.jpg",
+      "name": "Самые заказываемые пользователями книги в Национальной библиотеке Узбекистана в апреле 2022 года",
+      "title": ""
+    },
+    {
+      "id": 4,
+      "url": "4.jpg",
+      "name": "#Золотые сундуки с драгоценностями",
+      "title": "Уважаемые читатели, продолжаем знакомить вас с комментариями привлекательных слов на родном языке из узбекского словаря под хештегом #Золотые сундуки с драгоценностями на нашем канале.."
+    },
+    {
+      "id": 5,
+      "url": "5.jpg",
+      "name": "Выставка, посвященная 110-летию академика Вахида Абдуллаева",
+      "title": "Уважаемые читатели, мы продолжим представлять вам на нашем канале под хэштегом #Oltin_sandiq_javohirlari комментарий к привлекательным словам, которые можно найти в нашем родном языке из узбекского словаря на книжных полках."
+    },
+    {
+      "id": 6,
+      "url": "6.jpg",
+      "name": "Выставка, посвященная 110-летию академика Вахида Абдуллаева",
+      "title": " В читальном зале «Илм» Национальной библиотеки Узбекистана открылась выставка книг, посвященная 110-летию заслуженного деятеля науки Узбекистана, академика Академии наук Узбекистана, литературоведа, доктора филологических наук, профессора Вахида Абдуллаева."
+    },
+    {
+      "id": 7,
+      "url": "7.jpg",
+      "name": "Уважаемые читатели!",
+      "title": "Каждую пятницу недели под хэштегом #kun_hikmati мы знакомим вас с мудрыми изречениями известных и великих ученых и поэтов."
+    },
+    {
+      "id": 8,
+      "url": "8.jpg",
+      "name": "“Бессмертная слава» фотовыставка",
+      "title": "  В соответствии с Указом Президента Республики Узбекистан от 29 апреля 2022 года «О мерах по подготовке и проведению Дня памяти и почестей – 9 мая» монумент «Парк Победы» узбекский в Государственном музее «Шон -Шараф"
+    },
+    {
+      "id": 9,
+      "url": "9.jpg",
+      "name": "В Российской Федерации реализуется проект по сотрудничеству библиотек Содружества в сфере образования",
+      "title": " Российская государственная библиотека (РГБ) совместно с Федеральным агентством по делам соотечественников за рубежом Содружества Независимых Государств и Россотрудничеством по международному гуманитарному сотрудничеству (Россотрудничество)"
+    }
+  ],
+  "news_en": [
+    {
+      "id": 1,
+      "url": "1.jpg",
+      "name": "Central Asia - 2022: XV International Conference Internet and Information and Library Resources in Science, Education, Culture and Business",
+
+      "title": "Central Asia - 2022: XV International Conference Internet and Information and Library Resources in Science, Education, Culture and Business"
+    },
+    {
+      "id": 2,
+      "url": "2.png",
+      "name": "Library of Foreign Literatured",
+      "title": "About the project"
+    },
+    {
+      "id": 3,
+      "url": "3.jpg",
+      "name": "The most ordered books by users in the National Library of Uzbekistan in April 2022",
+      "title": ""
+    },
+    {
+      "id": 4,
+      "url": "4.jpg",
+      "name": "#Golden treasure chests",
+      "title": "Dear readers, we continue to acquaint you with the comments of attractive words in your native language from the Uzbek dictionary under the hashtag #Golden treasure chests on our channel.."
+    },
+    {
+      "id": 5,
+      "url": "5.jpg",
+      "name": "Exhibition dedicated to the 110th anniversary of Academician Vahid Abdullayev",
+      "title": "Dear readers, we will continue to present you on our channel under the hashtag #Oltin_sandiq_javohirlari a commentary on attractive words that can be found in our native language from the Uzbek dictionary on bookshelves."
+    },
+    {
+      "id": 6,
+      "url": "6.jpg",
+      "name": "Exhibition dedicated to the 110th anniversary of Academician Vahid Abdullayev",
+      "title": "An exhibition of books dedicated to the 110th anniversary of the Honored Worker of Science of Uzbekistan, Academician of the Academy of Sciences of Uzbekistan, literary critic, Doctor of Philology, Professor Vahid Abdullayev has opened in the Ilm reading room of the National Library of Uzbekistan."
+    },
+    {
+      "id": 7,
+      "url": "7.jpg",
+      "name": "Dear readers!",
+      "title": "Every Friday of the week, under the hashtag #kun_hikmati, we introduce you to the wise sayings of famous and great scientists and poets."
+    },
+    {
+      "id": 8,
+      "url": "8.jpg",
+      "name": "“Immortal Glory photo exhibition",
+      "title": "In accordance with the Decree of the President of the Republic of Uzbekistan dated April 29, 2022 “On measures for the preparation and holding of the Day of Memory and Honor - May 9”, the Uzbek monument “Victory Park” in the State Museum “Shon-Sharaf"
+    },
+    {
+      "id": 9,
+      "url": "9.jpg",
+      "name": "A project on cooperation of Commonwealth libraries in the field of education is being implemented in the Russian Federation",
+      "title": "The Russian State Library (RSL) together with the Federal Agency for Compatriots Abroad of the Commonwealth of Independent States and Rossotrudnichestvo for International Humanitarian Cooperation (Rossotrudnichestvo)"
+    }
+  ]
+}
