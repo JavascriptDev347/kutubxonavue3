@@ -50,8 +50,8 @@ getBooks();
 }
 .books {
   width: 100%;
-  height: 100vh;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .books h2 {

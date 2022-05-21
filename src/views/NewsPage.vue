@@ -15,7 +15,7 @@
 
     <div
       class="container mt-4 d-flex flex-wrap justify-content-between justify-content-sm-center"
-      style="gap: 30px"
+      style="gap: 30px; margin-bottom: 30px"
     >
       <div
         class="card"

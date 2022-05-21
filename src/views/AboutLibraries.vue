@@ -55,6 +55,7 @@ import milliy2 from "@/assets/milliy2.jpg";
 .about {
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .about h1 {
   font-size: 35px;

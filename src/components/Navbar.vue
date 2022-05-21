@@ -132,7 +132,14 @@ const OpenLibrary = () => {
   library.value = !library.value;
 };
 const d = ref("");
-d.value="uz"
+
+onMounted(() => {
+  if (!localStorage.getItem("lang")) {
+    localStorage.setItem("lang", "uz");
+    d.value = localStorage.getItem("lang");
+  }
+  i18n.global.locale = localStorage.getItem("lang");
+});
 onMounted(() => {
   i18n.global.locale = localStorage.getItem("lang");
 });
