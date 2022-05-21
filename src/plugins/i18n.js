@@ -12,7 +12,7 @@ const i18n = createI18n({
     ru,
   },
   silentTranslationWarn: true,
-  fallbackLocale: lang || 'en',
+  fallbackLocale: lang || 'uz',
 });
 
 

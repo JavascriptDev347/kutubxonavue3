@@ -17,13 +17,13 @@
         ></a>
       </div>
     </div>
-    <div class="contact1">
+    <div class="contact1 flex-wrap">
       <div class="item1">
-        <span>{{$t("contact1")}}</span>
+        <span>{{ $t("contact1") }}</span>
         <ul>
           <li>
             <i class="fa-solid fa-house-chimney"></i>
-            {{$t("location")}}
+            {{ $t("location") }}
           </li>
           <li>
             <i class="fa-solid fa-envelope"></i>
@@ -36,7 +36,7 @@
         </ul>
       </div>
       <div class="item2">
-        <span>{{$t("useful_links")}}</span>
+        <span>{{ $t("useful_links") }}</span>
         <ul>
           <li>
             <router-link to="/" class="router">{{ $t("home") }}</router-link>
@@ -62,13 +62,10 @@
         </ul>
       </div>
       <div class="item1">
-        <span>{{$t("library_links")}}</span>
+        <span>{{ $t("library_links") }}</span>
         <ul>
           <li>
-            <a
-              href="https://libraries.mit.edu/"
-              >{{ $t("MIT_Library") }}</a
-            >
+            <a href="https://libraries.mit.edu/">{{ $t("MIT_Library") }}</a>
           </li>
           <li>
             <a href="https://library.harvard.edu/">{{ $t("Harvard") }}</a>
@@ -82,8 +79,7 @@
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style scoped>
 * {
@@ -93,7 +89,6 @@
 }
 .footer {
   width: 100%;
-  height: 200px;
   background-color: #b1040e;
   margin-top: 100px;
   display: flex;
@@ -101,7 +96,6 @@
 }
 .footer .contact {
   width: 100%;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -146,15 +140,15 @@
   color: #fff;
   font-size: 14px;
 }
-.footer .contact1 ul li a{
+.footer .contact1 ul li a {
   list-style: none;
   color: #fff;
   text-decoration: none;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
 }
-.footer .contact1 ul li a:hover{
-       border-bottom: 1px solid;
+.footer .contact1 ul li a:hover {
+  border-bottom: 1px solid;
 }
 .footer .contact1 .item1 ul li i {
   font-size: 16px;

@@ -131,7 +131,8 @@ const library = ref(false);
 const OpenLibrary = () => {
   library.value = !library.value;
 };
-const d = ref();
+const d = ref("");
+d.value="uz"
 onMounted(() => {
   i18n.global.locale = localStorage.getItem("lang");
 });
