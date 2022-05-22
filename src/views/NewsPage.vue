@@ -2,12 +2,12 @@
   <div v-if="show">
     <form
       @submit.prevent="searchedProducts"
-      class="d-flex w-50"
-      style="gap: 10px"
+      class="d-flex w-50 justify-content-center"
+      style="gap: 10px; margin-top: 20px"
     >
       <input
         type="text"
-        class="form-control"
+        class="form-control w-100"
         placeholder="Search news"
         v-model="searchQuery"
       />

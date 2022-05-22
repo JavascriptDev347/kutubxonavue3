@@ -61,7 +61,16 @@
           <a class="router" @click="OpenLibrary">{{ $t("libraries") }}</a>
         </li>
       </ul>
+
       <div class="libraries" v-if="library">
+        <div class="d-flex justify-content-center p-3">
+          <button
+            type="button"
+            class="btn-close text-right"
+            @click="OpenLibrary"
+          ></button>
+        </div>
+
         <div class="library">
           <a href="https://kitob.uz/">{{ $t("book") }}</a>
         </div>
