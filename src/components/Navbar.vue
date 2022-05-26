@@ -329,6 +329,7 @@ const Click5 = () => {
   z-index: 999;
   border: 1px solid #817f7f;
   border-radius: 7px;
+  overflow-y: scroll;
 }
 .navbars .nav_bottom .libraries .library {
   width: 100%;
