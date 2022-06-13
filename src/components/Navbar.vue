@@ -7,7 +7,7 @@
       class="nav_centre d-flex justify-content-md-around justify-content-xl-between justify-content-sm-center"
     >
       <div class="bottom_left">
-        <p class="tatu">{{ $t("library") }}</p>
+        <p class="tatu" @click="tatu">{{ $t("library") }}</p>
       </div>
       <div
         class="bottom_right justify-content-center justify-content-md-end justify-content-xl-end"
@@ -192,6 +192,10 @@ const Click5 = () => {
     (click5.value = true);
   click1.value = false;
 };
+
+const tatu = () => {
+  window.location.href = "/";
+};
 </script>
 <style scoped>
 .search_button {
@@ -251,6 +255,7 @@ const Click5 = () => {
   font-size: 35px;
   color: #8c1515;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .navbars .nav_centre .bottom_right {
   margin-right: 80px;
