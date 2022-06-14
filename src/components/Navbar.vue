@@ -74,6 +74,51 @@
         <div class="library">
           <a href="https://kitob.uz/">{{ $t("book") }}</a>
         </div>
+          <div class="library2">
+          <a href="https://tuit.uz/elektron-kutubxona">{{ $t("tatu") }}</a>
+        </div>
+        <div class="library2">
+          <a href="https://bilim.natlib.uz/">{{ $t("knowladge") }}</a>
+        </div>
+        <div class="library">
+          <a href="http://library.samdu.uz/">Samdu.uz</a>
+        </div>
+        <div class="library">
+          <a href="http://www.ferlibrary.uz/">ferlibrary.uz</a>
+        </div>
+        <div class="library">
+          <a href="http://namanganvarm.zn.uz/">namanganvarm.uz</a>
+        </div>
+        <div class="library">
+          <a href="http://namanganvarm.zn.uz/">Anidijan-Bobur.uz</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=175&CatId=3730">goldenpages.uz</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=2541&CatId=3730">Abu-ali ibn Sino</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=2541&CatId=3730">{{ $t("Politex") }}</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=67508&CatId=3730">{{ $t("Jizzah") }}</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=44486&CatId=3730">{{ $t("Navoiy") }}</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=77007&CatId=3730">{{ $t("FOR_THE_BLIND") }}</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=1187&CatId=3730">{{ $t("children") }}</a>
+        </div>
+        <div class="library">
+          <a href="https://www.goldenpages.uz/uz/company/?Id=1535&CatId=3730">{{ $t("Academy_of_Sciences") }}</a>
+        </div>
+        <div class="library">
+          <a href="http://namanganvarm.zn.uz/">Anidijan-Bobur.uz</a>
+        </div>
         <div class="library2">
           <a href="https://library.harvard.edu/">{{ $t("Harvard") }}</a>
         </div>
@@ -109,13 +154,6 @@
         </div>
         <div class="library2">
           <a href="https://www.library.jhu.edu/">{{ $t("John_Hopkins") }}</a>
-        </div>
-
-        <div class="library2">
-          <a href="https://tuit.uz/elektron-kutubxona">{{ $t("tatu") }}</a>
-        </div>
-        <div class="library2">
-          <a href="https://bilim.natlib.uz/">{{ $t("knowladge") }}</a>
         </div>
       </div>
       <div class="libraries1" v-else></div>
