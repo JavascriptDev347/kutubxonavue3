@@ -42,7 +42,7 @@
           }}</router-link>
         </li>
         <li>
-          <a class="router" @click="OpenLibrary">{{ $t("libraries") }}</a>
+          <a class="router hov" @click="OpenLibrary">{{ $t("libraries") }}</a>
         </li>
       </ul>
 
@@ -54,7 +54,87 @@
             @click="OpenLibrary"
           ></button>
         </div>
-
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/ahmad-al-fargoniy-nomidagi-fargona-viloyat-axborot-kutubxona-markazi/"
+            >{{ $t("Fargana") }}</a
+          >
+        </div>
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/toshkent-viloyat-axborot-kutubxona-markazi/"
+            >{{ $t("Tashkent") }}</a
+          >
+        </div>
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/toshkent-shahar-bilim-axborot-kutubxona-markazi/"
+            >{{ $t("Tashkent2") }}</a
+          >
+        </div>
+        <div class="library">
+          <a href="https://www.samdu.uz/uz/pages/axborot_resurs_markazi">{{
+            $t("Samarqand")
+          }}</a>
+        </div>
+        <div class="library">
+          <a
+            href="https://uz.near-place.com/snasafiy-nomli-qashqadaryo-viloyat-axborot-kutubxona-markazi-qarshi"
+            >{{ $t("Qashqadarya") }}</a
+          >
+        </div>
+        <div class="library">
+          <a href="https://jspi.uz/resurs-markaz/axborot-resurs-markazi/">{{
+            $t("Jizzakh")
+          }}</a>
+        </div>
+        <div class="library">
+          <a
+            href="https://bsmi.uz/uz/markaz-va-tashkilotlar/axborot-resurs-markazi/"
+            >{{ $t("Bukhara") }}</a
+          >
+        </div>
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/qurbon-ota-ismoilov-nomidagi-xorazm-viloyat-axborot-kutubxona-markazi/"
+            >{{ $t("Khorezm") }}</a
+          >
+        </div>
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/at-termiziy-nomidagi-surxondaryo-viloyat-axborot-kutubxona-markazi/"
+            >{{ $t("Surkhandarya") }}</a
+          >
+        </div>
+        <div class="library">
+          <a href="https://kitob.uz/https://www.facebook.com/sirdarya.akm/">{{
+            $t("Syrdarya")
+          }}</a>
+        </div>
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/zahiriddin-muhammad-bobur-nomidagi-andijon-viloyat-axborot-kutubxona-markazi/"
+            >{{ $t("Andijan") }}</a
+          >
+        </div>
+        <div class="library">
+          <a
+            href="https://namangan.uz/uz/yangiliklar-2/1721-namanganda-nodirabegim-nomidagi-axborot-kutubxona-markazi-foydalanishga-topshirildi"
+            >{{ $t("Namangan") }}</a
+          >
+        </div>
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/abdulla-qodiriy-nomidagi-navoiy-viloyat-axborot-kutubxona-markazi/"
+            >{{ $t("Navoi") }}</a
+          >
+        </div>
+        <div class="library">
+          <a
+            href="https://saviya.uz/hayot/nigoh/qoraqalpogiston-respublikasi-axborot-kutubxona-markazi/"
+            >{{ $t("Karakalpak") }}</a
+          >
+        </div>
         <div class="library">
           <a href="https://kitob.uz/">{{ $t("book") }}</a>
         </div>
@@ -62,7 +142,7 @@
           <a href="https://tuit.uz/elektron-kutubxona">{{ $t("tatu") }}</a>
         </div>
         <div class="library2">
-          <a href="https://bilim.natlib.uz/">{{ $t("knowladge") }}</a>
+          <a href="https://bilim.natlib.uz/">{{ $t("Knowladge") }}</a>
         </div>
         <div class="library">
           <a href="http://library.samdu.uz/">Samdu.uz</a>
@@ -239,6 +319,9 @@ const tatu = () => {
 };
 </script>
 <style>
+::-webkit-scrollbar {
+  display: none;
+}
 .router-link-exact-active {
   color: red !important;
 }
@@ -374,7 +457,7 @@ const tatu = () => {
 .navbars .nav_bottom .libraries {
   position: absolute;
   top: 45px;
-  right: 110px;
+  right: 170px;
   width: 300px;
   height: 492px;
   background-color: #fff;
