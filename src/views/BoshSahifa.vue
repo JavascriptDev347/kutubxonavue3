@@ -6,7 +6,7 @@
           opacity: 1;
           display: flex;
           justify-content: center;
-          padding: 0 200px;
+         
           text-align: center;
           
         "
@@ -21,7 +21,10 @@
       <div
         class="d-flex justify-content-md-around w-100 flex-wrap"
         style="margin-bottom: 30px"
-      ></div>
+      >
+      
+      <p style="text-algin:center;max-width: 1200px;font-size: 30px;">{{$t("TITLE")}}</p>
+      </div>
     </div>
   </div>
 </template>
