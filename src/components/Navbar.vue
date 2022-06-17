@@ -235,11 +235,17 @@ const tatu = () => {
   window.location.href = "/";
 };
 </script>
-<style scoped>
+<style >
 .search_button {
   border: none;
   background-color: transparent;
   height: 35px;
+}
+@media screen and (max-width:600px) {
+    .libraries {
+    width: 100% !important;
+    right: 0 !important;
+  }
 }
 @media screen and (max-width: 780px) {
   .nav_bottom {
