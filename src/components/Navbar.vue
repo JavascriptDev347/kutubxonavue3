@@ -26,15 +26,14 @@
         <li>
           <router-link
             to="/"
-            :class="click1 ? 'router1' : 'router'"
             @click="Click1"
             >{{ $t("home") }}</router-link
           >
         </li>
         <li>
           <router-link
+            exact
             to="/news"
-            :class="click2 ? 'router1' : 'router'"
             @click="Click2"
           >
             {{ $t("news") }}</router-link
@@ -42,8 +41,8 @@
         </li>
         <li>
           <router-link
+            exact
             to="/about_library"
-            :class="click3 ? 'router1' : 'router'"
             @click="Click3"
           >
             {{ $t("about_library") }}</router-link
@@ -51,14 +50,14 @@
         </li>
         <li>
           <router-link
+            exact
             to="/books"
-            :class="click4 ? 'router1' : 'router'"
             @click="Click4"
             >{{ $t("books") }}</router-link
           >
         </li>
         <li>
-          <a class="router" @click="OpenLibrary">{{ $t("libraries") }}</a>
+          <a  class="router" @click="OpenLibrary">{{ $t("libraries") }}</a>
         </li>
       </ul>
 
@@ -74,7 +73,7 @@
         <div class="library">
           <a href="https://kitob.uz/">{{ $t("book") }}</a>
         </div>
-          <div class="library2">
+        <div class="library2">
           <a href="https://tuit.uz/elektron-kutubxona">{{ $t("tatu") }}</a>
         </div>
         <div class="library2">
@@ -93,28 +92,47 @@
           <a href="http://namanganvarm.zn.uz/">Anidijan-Bobur.uz</a>
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=175&CatId=3730">goldenpages.uz</a>
+          <a href="https://www.goldenpages.uz/uz/company/?Id=175&CatId=3730"
+            >goldenpages.uz</a
+          >
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=2541&CatId=3730">Abu-ali ibn Sino</a>
+          <a href="https://www.goldenpages.uz/uz/company/?Id=2541&CatId=3730"
+            >Abu-ali ibn Sino</a
+          >
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=2541&CatId=3730">{{ $t("Politex") }}</a>
+          <a href="https://www.goldenpages.uz/uz/company/?Id=2541&CatId=3730">{{
+            $t("Politex")
+          }}</a>
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=67508&CatId=3730">{{ $t("Jizzah") }}</a>
+          <a
+            href="https://www.goldenpages.uz/uz/company/?Id=67508&CatId=3730"
+            >{{ $t("Jizzah") }}</a
+          >
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=44486&CatId=3730">{{ $t("Navoiy") }}</a>
+          <a
+            href="https://www.goldenpages.uz/uz/company/?Id=44486&CatId=3730"
+            >{{ $t("Navoiy") }}</a
+          >
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=77007&CatId=3730">{{ $t("FOR_THE_BLIND") }}</a>
+          <a
+            href="https://www.goldenpages.uz/uz/company/?Id=77007&CatId=3730"
+            >{{ $t("FOR_THE_BLIND") }}</a
+          >
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=1187&CatId=3730">{{ $t("children") }}</a>
+          <a href="https://www.goldenpages.uz/uz/company/?Id=1187&CatId=3730">{{
+            $t("children")
+          }}</a>
         </div>
         <div class="library">
-          <a href="https://www.goldenpages.uz/uz/company/?Id=1535&CatId=3730">{{ $t("Academy_of_Sciences") }}</a>
+          <a href="https://www.goldenpages.uz/uz/company/?Id=1535&CatId=3730">{{
+            $t("Academy_of_Sciences")
+          }}</a>
         </div>
         <div class="library">
           <a href="http://namanganvarm.zn.uz/">Anidijan-Bobur.uz</a>
@@ -235,14 +253,21 @@ const tatu = () => {
   window.location.href = "/";
 };
 </script>
-<style >
+<style>
+
+.router-link-exact-active {
+  color:red !important;
+}
+
+
+
 .search_button {
   border: none;
   background-color: transparent;
   height: 35px;
 }
-@media screen and (max-width:600px) {
-    .libraries {
+@media screen and (max-width: 600px) {
+  .libraries {
     width: 100% !important;
     right: 0 !important;
   }
@@ -355,16 +380,11 @@ const tatu = () => {
   cursor: pointer;
   text-decoration: none;
 }
-.navbars .nav_bottom ul li .router {
+.navbars .nav_bottom ul li a {
   text-decoration: none;
   color: #2e2d2d;
 }
-.navbars .nav_bottom ul li .router1 {
-  text-decoration: none;
-  color: #b1040e;
-  font-size: 22px;
-  transition: all 0.1s linear;
-}
+
 .navbars .nav_bottom ul li .router:hover {
   color: #b1040e;
 }
