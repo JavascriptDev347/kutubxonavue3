@@ -477,7 +477,7 @@ flex-wrap: wrap;
   align-items: center;
   flex-wrap: wrap;
   margin: 15px 0px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .libraries .library .img_map .img {
   width: 600px;
