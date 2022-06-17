@@ -6,9 +6,7 @@
           opacity: 1;
           display: flex;
           justify-content: center;
-         
           text-align: center;
-          
         "
       >
         {{ $t("title") }}
@@ -39,6 +37,9 @@
 }
 
 @media screen and (max-width: 596px) {
+  .bg_img  {
+    font-size: 24px !important;
+  }
   .wrap__item {
     justify-content: center;
     align-items: center;
