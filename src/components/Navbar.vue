@@ -24,40 +24,25 @@
     <div class="nav_bottom">
       <ul>
         <li>
-          <router-link
-            to="/"
-            @click="Click1"
-            >{{ $t("home") }}</router-link
-          >
+          <router-link to="/" @click="Click1">{{ $t("home") }}</router-link>
         </li>
         <li>
-          <router-link
-            exact
-            to="/news"
-            @click="Click2"
-          >
+          <router-link exact to="/news" @click="Click2">
             {{ $t("news") }}</router-link
           >
         </li>
         <li>
-          <router-link
-            exact
-            to="/about_library"
-            @click="Click3"
-          >
+          <router-link exact to="/about_library" @click="Click3">
             {{ $t("about_library") }}</router-link
           >
         </li>
         <li>
-          <router-link
-            exact
-            to="/books"
-            @click="Click4"
-            >{{ $t("books") }}</router-link
-          >
+          <router-link exact to="/books" @click="Click4">{{
+            $t("books")
+          }}</router-link>
         </li>
         <li>
-          <a  class="router" @click="OpenLibrary">{{ $t("libraries") }}</a>
+          <a class="router" @click="OpenLibrary">{{ $t("libraries") }}</a>
         </li>
       </ul>
 
@@ -254,18 +239,16 @@ const tatu = () => {
 };
 </script>
 <style>
-
 .router-link-exact-active {
-  color:red !important;
+  color: red !important;
 }
-
-
 
 .search_button {
   border: none;
   background-color: transparent;
   height: 35px;
 }
+
 @media screen and (max-width: 600px) {
   .libraries {
     width: 100% !important;
@@ -455,5 +438,12 @@ const tatu = () => {
 }
 .navbars .nav_bottom .libraries1 {
   display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .navbars .nav_top span {
+    margin-left: 0 !important;
+    padding: 10px !important;
+  }
 }
 </style>
